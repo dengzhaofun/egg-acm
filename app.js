@@ -3,5 +3,7 @@
 const ACMClient = require('./lib/acm_client');
 
 module.exports = app => {
-  app.acm = new ACMClient(app);
+  if (app.config.acm.app) {
+    app.acm = new ACMClient(app);
+  }
 };

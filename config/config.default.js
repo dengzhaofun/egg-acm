@@ -17,4 +17,6 @@ exports.acm = {
   secretKey: '', // acm 控制台查看
   requestTimeout: 6000, // 请求超时时间，默认6s
   ssl: false, // ssl 暂时不支持
+  app: true,
+  agent: false,
 };

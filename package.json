@@ -1,6 +1,6 @@
 {
-  "name": "egg-acm",
-  "version": "3.0.0",
+  "name": "@dengzhaofun/egg-acm",
+  "version": "3.1.1",
   "description": "Aliyun ACM(Application Configuration Management) plugin for Egg.js",
   "eggPlugin": {
     "name": "acm"
@@ -11,7 +11,7 @@
     "egg-plugin"
   ],
   "dependencies": {
-    "acm-client": "^3.0.0"
+    "@alicloud/acm-sdk": "^1.0.1"
   },
   "devDependencies": {
     "autod": "^3.0.1",
